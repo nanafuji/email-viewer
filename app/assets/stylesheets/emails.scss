@@ -1,0 +1,27 @@
+// Place all the styles related to the emails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.email-list {
+	background-color: yellow;
+	border: solid 3px black;
+	display: flex;
+	justify-content: flex-center;
+}
+
+#list, #content {
+	background-color: pink;
+	border: solid 1px black;
+	height: 800px;
+	width: 45%;
+}
+
+.email-object {
+	border-bottom: solid 1px black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.active {
+	background-color: gray;
+}
